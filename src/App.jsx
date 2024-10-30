@@ -7,7 +7,7 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div className="h-screen overflow-scroll snap-y snap-proximity">
+      <div className="h-screen overflow-scroll snap-y snap-proximity snap-always">
         <Navbar />
         <div className="h-[1px] snap-end text-bodyBG">.</div>
         <Landing />
