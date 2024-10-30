@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.satoshi-font {
+  font-family: "Satoshi", sans-serif;
+}
+
+.floatingNBBG {
+  background: rgba(7, 7, 7, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.navbar-bottom-border {
+  /*Add this to hoverNavbar background: rgba(7, 7, 7, 0.5); */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
