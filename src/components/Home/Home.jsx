@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./home.css";
-import { FaArrowRight } from "react-icons/fa6";
+import "./Home.css";
 import GreyBlueButton from "../GeneralComponents/GreyBlueButton/GreyBlueButton";
 
 const Home = () => {
