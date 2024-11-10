@@ -1,0 +1,22 @@
+.sub-heading-color {
+  color: white;
+}
+
+.resume-button:hover {
+  background-color: #006cff;
+  border: 1 solid #006cff;
+  transition: all 0.5s ease;
+}
+
+.arrow {
+  position: relative;
+  transition: left 0.3s ease;
+  left: 0px;
+}
+.resume-button:hover .arrow {
+  left: 5px;
+}
+
+.blue-hover:hover {
+  background-color: #006cff;
+}
