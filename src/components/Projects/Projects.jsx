@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectTile from "./ProjectTile";
-import project1 from "../../assets/projects/project-1.png";
-import projectTemplate from "../../assets/projects/project-Template.png";
+import projectTemplate from "../../assets/projects/projectTemplate.png";
 import GreyBlueButton from "../GeneralComponents/GreyBlueButton/GreyBlueButton";
 
 const Projects = () => {
