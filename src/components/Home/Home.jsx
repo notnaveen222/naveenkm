@@ -6,7 +6,7 @@ import GreyBlueButton from "../GeneralComponents/GreyBlueButton/GreyBlueButton";
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full h-[600px] sm:h-[750px] font-inter ">
-      <div className="flex flex-col items-center text-5xl text-white sm:text-8xl">
+      <div className="flex flex-col items-center text-5xl text-white sm:text-8xl ">
         <motion.div>MODERN</motion.div>
         <motion.div>AESTHETICS</motion.div>
       </div>

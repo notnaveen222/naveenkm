@@ -10,3 +10,7 @@ body {
 .backdrop-blur {
   backdrop-filter: "blur(20px)";
 }
+
+body div::selection {
+  background-color: rgba(68, 68, 68, 0.4);
+}
