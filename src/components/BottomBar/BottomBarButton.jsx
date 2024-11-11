@@ -4,11 +4,11 @@ const BottomBarButton = ({ title, icon }) => {
   return (
     <div
       className={
-        "flex flex-col items-center justify-center mt-3 text-[15px] text-white font-inter"
+        "flex flex-col items-center justify-center mt-3 text-[15px] text-white"
       }
     >
-      <div>{icon}</div>
-      <div>{title}</div>
+      <div className="text-xl">{icon}</div>
+      <div className="font-interT">{title}</div>
     </div>
   );
 };

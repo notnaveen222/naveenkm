@@ -1,10 +1,9 @@
 import React from "react";
 import BottomBarButton from "./BottomBarButton";
-import { FaHome } from "react-icons/fa";
-import { PiGridFourFill } from "react-icons/pi";
-import { MdEmojiEmotions } from "react-icons/md";
-import { BiLogoTelegram } from "react-icons/bi";
-
+import { GoHome } from "react-icons/go";
+import { IoGridOutline } from "react-icons/io5";
+import { FiUser } from "react-icons/fi";
+import { LiaTelegram } from "react-icons/lia";
 const MobileBottomBar = ({ visible }) => {
   return (
     <div
@@ -14,10 +13,10 @@ const MobileBottomBar = ({ visible }) => {
       }
     >
       <div className="flex items-center justify-center gap-8">
-        <BottomBarButton title={"Home"} icon={<FaHome />} />
-        <BottomBarButton title={"Projects"} icon={<PiGridFourFill />} />
-        <BottomBarButton title={"About"} icon={<MdEmojiEmotions />} />
-        <BottomBarButton title={"Contact"} icon={<BiLogoTelegram />} />
+        <BottomBarButton title={"Home"} icon={<GoHome />} />
+        <BottomBarButton title={"Projects"} icon={<IoGridOutline />} />
+        <BottomBarButton title={"About"} icon={<FiUser />} />
+        <BottomBarButton title={"Contact"} icon={<LiaTelegram />} />
       </div>
     </div>
   );
