@@ -7,7 +7,7 @@ const BottomBarButton = ({ title, icon }) => {
         "flex flex-col items-center justify-center mt-3 text-[15px] text-white"
       }
     >
-      <div className="text-xl">{icon}</div>
+      <div className="text-[15px]">{icon}</div>
       <div className="font-interT">{title}</div>
     </div>
   );

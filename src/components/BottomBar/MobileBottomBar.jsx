@@ -1,6 +1,7 @@
 import React from "react";
 import BottomBarButton from "./BottomBarButton";
 import { GoHome } from "react-icons/go";
+import { IoGridOutline } from "react-icons/io5"; //Equal Sized Icons
 import { BsGrid1X2 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 import { LiaTelegram } from "react-icons/lia";
