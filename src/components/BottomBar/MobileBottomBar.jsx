@@ -1,7 +1,7 @@
 import React from "react";
 import BottomBarButton from "./BottomBarButton";
 import { GoHome } from "react-icons/go";
-import { IoGridOutline } from "react-icons/io5";
+import { BsGrid1X2 } from "react-icons/bs";
 import { FiUser } from "react-icons/fi";
 import { LiaTelegram } from "react-icons/lia";
 const MobileBottomBar = ({ visible }) => {
@@ -14,7 +14,7 @@ const MobileBottomBar = ({ visible }) => {
     >
       <div className="flex items-center justify-center gap-8">
         <BottomBarButton title={"Home"} icon={<GoHome />} />
-        <BottomBarButton title={"Projects"} icon={<IoGridOutline />} />
+        <BottomBarButton title={"Projects"} icon={<BsGrid1X2 />} />
         <BottomBarButton title={"About"} icon={<FiUser />} />
         <BottomBarButton title={"Contact"} icon={<LiaTelegram />} />
       </div>
