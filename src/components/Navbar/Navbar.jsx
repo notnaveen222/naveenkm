@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import naveenLogo from "../../assets/naveen-logo.png";
 import FlippingText from "./FlippingText";
 import MobileBottomBar from "../BottomBar/MobileBottomBar";
+import HamburgerMenu from "../HamburgerMenu/Hamburger";
 
 const Navbar = () => {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <>
       <div className="z-10 fixed w-full px-[30px] pt-[10px]">
@@ -15,9 +18,10 @@ const Navbar = () => {
             <FlippingText title={"Projects"} />
             <FlippingText title={"Contact"} />
           </div>
+          <HamburgerMenu isOpen={isOpen} setOpen={setOpen} />
         </div>
       </div>
-      <MobileBottomBar />
+      <MobileBottomBar visible={isOpen} />
     </>
   );
 };
