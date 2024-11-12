@@ -1,9 +1,9 @@
 import React from "react";
-import InstaIcon from "./assets/social-icons/Insta-color.png";
-import LinkedInIcon from "./assets/social-icons/LinkedIn-color.svg";
-import TwitterIcon from "./assets/social-icons/X-color.png";
-import GitHubBg from "./assets/CatThinkingOp.png";
-import GitHubIcon from "./assets/social-icons/GitHub.png";
+import InstaIcon from "./Assets/social-icons/Insta-color.png";
+import LinkedInIcon from "./Assets/social-icons/LinkedIn-color.svg";
+import TwitterIcon from "./Assets/social-icons/X-color.png";
+import GitHubBg from "./Assets/CatThinkingOp.png";
+import GitHubIcon from "./Assets/social-icons/GitHub.png";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 
