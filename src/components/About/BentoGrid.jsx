@@ -3,7 +3,7 @@ import InstaIcon from "./about-assets/social-icons/Insta-color.png";
 import LinkedInIcon from "./about-assets/social-icons/LinkedIn-color.svg";
 import TwitterIcon from "./about-assets/social-icons/X-color.png";
 import GitHubBg from "./about-assets/CatThinkingOp.png";
-import GitHubIcon from "./about-assets/social-icons/GitHub.png";
+import GitHubIcon from "./about-assets/social-icons/Github.png";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 
