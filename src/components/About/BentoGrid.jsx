@@ -43,7 +43,7 @@ const BentoGrid = () => {
       <div className="grid grid-cols-12 col-span-7 grid-rows-2 row-span-2 gap-8 sm:col-span-4 ">
         <div
           style={githubCatBG}
-          className="select-none bg-center bg-cover col-span-10 rounded-[26px] row-span-1 cursor-pointer transform transition-transform duration-300 hover:scale-105"
+          className="select-none bg-center bg-cover col-span-9 sm:col-span-10 rounded-[26px] row-span-1 cursor-pointer transform transition-transform duration-300 hover:scale-105"
         >
           <div className="flex flex-col justify-between h-full p-5">
             <img className="h-[40px] w-[40px]" src={GitHubIcon} alt="" />
@@ -55,7 +55,7 @@ const BentoGrid = () => {
         </div>
         <div
           style={cardStylesRight}
-          className="flex flex-col items-center justify-center col-span-2 sm:col-span-2  gap-7 rounded-[20px]  row-span-1 "
+          className="flex flex-col items-center justify-center col-span-3  sm:col-span-2  gap-7 rounded-[20px]  row-span-1 "
         >
           <img
             className="grayscale ease-in-out hover:grayscale-0 transition-all duration-200 h-[25px] cursor-pointer w-[25px] hover:scale-[1.2]"
