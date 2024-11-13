@@ -5,7 +5,7 @@ import GreyBlueButton from "../GeneralComponents/GreyBlueButton/GreyBlueButton";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center w-screen h-auto">
+    <div className="flex flex-col items-center w-screen ">
       <div className="mb-10 text-4xl text-white sm:text-7xl">Projects</div>
       <div className="grid grid-rows-[1fr] lg:grid-cols-[1fr_1fr] gap-y-10 lg:gap-10 mb-[40px] lg:mb-[100px] place-items-center">
         <ProjectTile

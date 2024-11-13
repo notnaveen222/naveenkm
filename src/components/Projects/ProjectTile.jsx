@@ -3,7 +3,7 @@ import "./ProjectTile.css";
 const ProjectTile = ({ src, hoverColor, pushDown, ProjectMiniInfo }) => {
   return (
     <div
-      className={`project-tile overflow-hidden transition-all duration-300 w-[95%] sm:w-full ease-in-out bg-gray14 rounded-3xl relative hover:bg-${hoverColor} ${
+      className={`project-tile overflow-hidden transition-all duration-300 w-[90%] sm:w-full ease-in-out bg-gray14 rounded-3xl relative hover:bg-${hoverColor} ${
         pushDown ? "top-0 lg:top-[50px]" : "top-0"
       }`}
     >
